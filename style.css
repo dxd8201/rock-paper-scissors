@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: rgb(17, 16, 16);
+    font-family: 'Silkscreen', cursive;
+}
+
+/* General CSS */
+
+.container {
+    margin: 0 auto;
+    margin-top: 2.4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    color: white;
+    font-size: 2.4rem;
+    cursor: alias;
+}
+
+.headline {
+    font-size: 4.2rem;
+    color: white;
+}
+
+/* Results */
+
+.labels {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3.2rem;
+}
+
+.player-container, .computer-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.vs {
+    color: white;
+    align-self: flex-end;
+    font-size: 8.4rem;
+}
+
+.player, .computer {
+    color: goldenrod;
+}
+
+/* Statement */
+
+.statement {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 6.8rem;
+    color: goldenrod;
+    font-size: 4.2rem; 
+}
+
+/* Buttons */
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 34rem;
+}
+
+.btn {
+    width: 16rem;
+    height: 16rem;
+    padding: 1.2rem; 
+    border: none;
+    background-color: hsla(0, 0%, 100%, 0);
+    justify-content: center;
+}
+
+.wizard {
+    background-image: url("./media/2241/400/2241-battle-mage-angus-of-mu-nobg.png");
+    background-size: cover;
+}
+
+.warrior {
+    background-image: url("./media/12134/480/12134-chiaki-cleaver-of-the-forest-nobg.png");
+    background-size: cover;
+}
+
+.archer {
+    background-image: url("./media/4027/480/4027-kiyana-vengeance-of-all-that-is-evil-nobg.png");
+    background-size: cover;
+}
+
+.wizard-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.warrior-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.archer-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-end;
+}

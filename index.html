@@ -6,9 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <script src="javascript.js"></script>
+    <script src="javascript.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+    <div class="container headline">
+        Forgotten Runes Roshambo.
+    </div>
+
+
+    <div class="labels container">
+        <div class="player-container">
+            <div class="player">Player</div>
+            <div id="pScore" class="player"></div>
+            <div id="pChoice" class="player"></div>
+        </div>
+        
+        <div class="vs">
+            VS.
+        </div>
+
+        <div class="computer-container">
+            <div class="computer">Computer</div>
+            <div id="cScore" class="computer"></div>
+            <div id="cChoice" class="player"></div>
+        </div> 
+    </div>
+    
+    <div class="container">
+        <div id="statement" class="statement"></div>
+    </div>
+
+    <div id="choices" class="btn-container container">
+        <div class="wizard-container">
+            <div class="text">Wizard > Warrior</div>
+            <button id="WIZARD" class="btn wizard"></button>
+        </div>
+        <div class="archer-container">
+            <div class="text lower-key">Archer > Wizard</div>
+            <button id="ARCHER" class="btn archer"></button>
+        </div>
+        <div class="warrior-container">
+            <div class="text">Warrior > Archer</div>
+            <button id="WARRIOR" class="btn warrior"></button>
+        </div>
+        
+    </div>
 </body>
 </html>
